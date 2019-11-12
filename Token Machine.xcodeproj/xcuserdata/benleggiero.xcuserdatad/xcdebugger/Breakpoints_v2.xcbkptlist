@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7F68804D-5BA6-4147-BD39-B2E8A5D19B59"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6084A55D-B16F-4ECE-BEE0-8CC3D3639C8F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            condition = "-start.timeIntervalSinceNow &gt; 1"
+            continueAfterRunningActions = "No"
+            filePath = "Token MachineTests/TokenMachineTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "testTiming()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

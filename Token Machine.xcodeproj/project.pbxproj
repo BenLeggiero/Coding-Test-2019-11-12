@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A32F05FF237B641D00CA7732 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32F05FE237B641D00CA7732 /* AppDelegate.swift */; };
+		A32F0601237B642100CA7732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32F0600237B642100CA7732 /* Assets.xcassets */; };
+		A32F0604237B642100CA7732 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A32F0602237B642100CA7732 /* MainMenu.xib */; };
+		A32F061B237B643A00CA7732 /* TokenMachineContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32F061A237B643A00CA7732 /* TokenMachineContainer.swift */; };
+		A32F0620237B671B00CA7732 /* TokenMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32F061F237B671B00CA7732 /* TokenMachine.swift */; };
+		A32F0625237B6B7400CA7732 /* TokenMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32F0624237B6B7400CA7732 /* TokenMachineTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A32F060C237B642100CA7732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32F05F3237B641D00CA7732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32F05FA237B641D00CA7732;
+			remoteInfo = "Token Machine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A32F05FB237B641D00CA7732 /* Token Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Token Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32F05FE237B641D00CA7732 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A32F0600237B642100CA7732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A32F0603237B642100CA7732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A32F0605237B642100CA7732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32F0606237B642100CA7732 /* Token_Machine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Token_Machine.entitlements; sourceTree = "<group>"; };
+		A32F060B237B642100CA7732 /* Token MachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Token MachineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32F0611237B642100CA7732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32F061A237B643A00CA7732 /* TokenMachineContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenMachineContainer.swift; sourceTree = "<group>"; };
+		A32F061F237B671B00CA7732 /* TokenMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenMachine.swift; sourceTree = "<group>"; };
+		A32F0623237B6B7300CA7732 /* Token MachineTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Token MachineTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		A32F0624237B6B7400CA7732 /* TokenMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenMachineTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A32F05F8237B641D00CA7732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32F0608237B642100CA7732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A32F05F2237B641D00CA7732 = {
+			isa = PBXGroup;
+			children = (
+				A32F05FD237B641D00CA7732 /* Token Machine */,
+				A32F060E237B642100CA7732 /* Token MachineTests */,
+				A32F05FC237B641D00CA7732 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A32F05FC237B641D00CA7732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A32F05FB237B641D00CA7732 /* Token Machine.app */,
+				A32F060B237B642100CA7732 /* Token MachineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A32F05FD237B641D00CA7732 /* Token Machine */ = {
+			isa = PBXGroup;
+			children = (
+				A32F05FE237B641D00CA7732 /* AppDelegate.swift */,
+				A32F0600237B642100CA7732 /* Assets.xcassets */,
+				A32F0602237B642100CA7732 /* MainMenu.xib */,
+				A32F0605237B642100CA7732 /* Info.plist */,
+				A32F0606237B642100CA7732 /* Token_Machine.entitlements */,
+				A32F061A237B643A00CA7732 /* TokenMachineContainer.swift */,
+				A32F061F237B671B00CA7732 /* TokenMachine.swift */,
+			);
+			path = "Token Machine";
+			sourceTree = "<group>";
+		};
+		A32F060E237B642100CA7732 /* Token MachineTests */ = {
+			isa = PBXGroup;
+			children = (
+				A32F0624237B6B7400CA7732 /* TokenMachineTests.swift */,
+				A32F0623237B6B7300CA7732 /* Token MachineTests-Bridging-Header.h */,
+				A32F0611237B642100CA7732 /* Info.plist */,
+			);
+			path = "Token MachineTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A32F05FA237B641D00CA7732 /* Token Machine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32F0614237B642100CA7732 /* Build configuration list for PBXNativeTarget "Token Machine" */;
+			buildPhases = (
+				A32F05F7237B641D00CA7732 /* Sources */,
+				A32F05F8237B641D00CA7732 /* Frameworks */,
+				A32F05F9237B641D00CA7732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Token Machine";
+			packageProductDependencies = (
+			);
+			productName = "Token Machine";
+			productReference = A32F05FB237B641D00CA7732 /* Token Machine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A32F060A237B642100CA7732 /* Token MachineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32F0617237B642100CA7732 /* Build configuration list for PBXNativeTarget "Token MachineTests" */;
+			buildPhases = (
+				A32F0607237B642100CA7732 /* Sources */,
+				A32F0608237B642100CA7732 /* Frameworks */,
+				A32F0609237B642100CA7732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A32F060D237B642100CA7732 /* PBXTargetDependency */,
+			);
+			name = "Token MachineTests";
+			productName = "Token MachineTests";
+			productReference = A32F060B237B642100CA7732 /* Token MachineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A32F05F3237B641D00CA7732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Blue Husky Studios";
+				TargetAttributes = {
+					A32F05FA237B641D00CA7732 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					A32F060A237B642100CA7732 = {
+						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
+						TestTargetID = A32F05FA237B641D00CA7732;
+					};
+				};
+			};
+			buildConfigurationList = A32F05F6237B641D00CA7732 /* Build configuration list for PBXProject "Token Machine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A32F05F2237B641D00CA7732;
+			packageReferences = (
+			);
+			productRefGroup = A32F05FC237B641D00CA7732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A32F05FA237B641D00CA7732 /* Token Machine */,
+				A32F060A237B642100CA7732 /* Token MachineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A32F05F9237B641D00CA7732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32F0601237B642100CA7732 /* Assets.xcassets in Resources */,
+				A32F0604237B642100CA7732 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32F0609237B642100CA7732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A32F05F7237B641D00CA7732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32F05FF237B641D00CA7732 /* AppDelegate.swift in Sources */,
+				A32F061B237B643A00CA7732 /* TokenMachineContainer.swift in Sources */,
+				A32F0620237B671B00CA7732 /* TokenMachine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32F0607237B642100CA7732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32F0625237B6B7400CA7732 /* TokenMachineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A32F060D237B642100CA7732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32F05FA237B641D00CA7732 /* Token Machine */;
+			targetProxy = A32F060C237B642100CA7732 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A32F0602237B642100CA7732 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A32F0603237B642100CA7732 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A32F0612237B642100CA7732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A32F0613237B642100CA7732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A32F0615237B642100CA7732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Token Machine/Token_Machine.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 26V9MK8TGP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Token Machine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bh.Token-Machine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A32F0616237B642100CA7732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Token Machine/Token_Machine.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 26V9MK8TGP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Token Machine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bh.Token-Machine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A32F0618237B642100CA7732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 26V9MK8TGP;
+				INFOPLIST_FILE = "Token MachineTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bh.Token-MachineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Token MachineTests/Token MachineTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Token Machine.app/Contents/MacOS/Token Machine";
+			};
+			name = Debug;
+		};
+		A32F0619237B642100CA7732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 26V9MK8TGP;
+				INFOPLIST_FILE = "Token MachineTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.bh.Token-MachineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Token MachineTests/Token MachineTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Token Machine.app/Contents/MacOS/Token Machine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A32F05F6237B641D00CA7732 /* Build configuration list for PBXProject "Token Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32F0612237B642100CA7732 /* Debug */,
+				A32F0613237B642100CA7732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32F0614237B642100CA7732 /* Build configuration list for PBXNativeTarget "Token Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32F0615237B642100CA7732 /* Debug */,
+				A32F0616237B642100CA7732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32F0617237B642100CA7732 /* Build configuration list for PBXNativeTarget "Token MachineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32F0618237B642100CA7732 /* Debug */,
+				A32F0619237B642100CA7732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A32F05F3237B641D00CA7732 /* Project object */;
+}
